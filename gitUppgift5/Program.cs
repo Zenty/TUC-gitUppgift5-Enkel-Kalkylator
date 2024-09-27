@@ -43,6 +43,7 @@ class Program
         // I Create a list for my objects containing numbers based on user input.
         List<myNumbers> numbersList = new List<myNumbers>();
 
+
         // Take in user input
         Console.WriteLine("Enkel Kalkylator");
         Console.WriteLine("Ange operation (+, -, *, /): ");
