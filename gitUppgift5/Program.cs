@@ -60,7 +60,14 @@ public class myCalculations
     }
     public double Division(double num1, double num2) // My method for calculating division.
     {
-        return num1 / num2;
+        if (num2 == 0) // If a number is devided with 0 the result is always 0.
+        {
+            return 0;
+        }
+        else
+        {
+            return num1 / num2;
+        }
     }
 
     public double Squareroot(double num1) // My method for calculating the squareroot
